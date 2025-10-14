@@ -32,16 +32,6 @@ VectorSearch with HNSW is a comprehensive implementation of the Hierarchical Nav
 - **Efficient Construction**: Configurable parameters (M, ef_construction, mL) for balancing build time and search quality
 - **High-Performance Search**: ef_search parameter controls the trade-off between accuracy and speed
 - **Persistence**: Save/load functionality using NumPy and JSON formats
-- **Flexible API**: CLI interface and optional FastAPI web service
-- **Production Ready**: Error handling, type annotations, and comprehensive documentation
-
-## Technical Architecture
-
-### Data Flow
-1. **Data Ingestion**: Fashion MNIST images (28×28 pixels) are flattened into 784-dimensional vectors
-2. **Normalization**: Pixel values scaled to [0, 1] range for optimal distance calculations
-3. **Index Building**: Vectors are inserted into the HNSW graph structure with optimized layer assignment
-4. **Query Processing**: Search operations traverse the hierarchical graph for efficient nearest neighbor retrieval
 
 ### Algorithm Parameters
 - **M**: Maximum number of neighbors per node (controls graph connectivity)
