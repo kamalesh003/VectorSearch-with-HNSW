@@ -15,6 +15,16 @@ VectorSearch with HNSW is a comprehensive implementation of the Hierarchical Nav
 
 **Result (Query Image and Top-5 Similar Results):**
 
+```bash
+--- Querying with Image ID 4860 (Label: ship) ---
+Top 5 Nearest Neighbors (ID, Distance, Label):
+Rank 1: ID: 4860, Dist: 0.0000, Label: ship <- QUERY
+Rank 2: ID: 2471, Dist: 0.1294, Label: ship 
+Rank 3: ID: 3898, Dist: 0.1324, Label: ship 
+Rank 4: ID: 1699, Dist: 0.1332, Label: ship 
+Rank 5: ID: 567, Dist: 0.1373, Label: ship
+```
+
 <img width="1189" height="245" alt="image" src="https://github.com/user-attachments/assets/941163ea-36b3-4c6b-8d0a-60c426078a86" />
 
 # Project Overview
