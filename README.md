@@ -13,6 +13,8 @@ VectorSearch with HNSW is a comprehensive implementation of the Hierarchical Nav
 
 # CIFAR-10 - Results
 
+This project ("FashionMNIST_Vector_Search_HSNW.ipynb") provides a pure-Python implementation of the HNSW approximate nearest neighbor algorithm, demonstrated with a pipeline for efficient image similarity search using pre-trained ResNet models.
+
 **Result (Query Image and Top-5 Similar Results):**
 
 ```bash
